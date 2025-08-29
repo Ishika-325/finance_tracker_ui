@@ -11,7 +11,7 @@ const Mobile = () => {
           <a className="p-3">Invoicing</a>
           <a className="p-3">Report</a>
           <a className="p-3">Analytics</a>
-          <a className='p-3 flex gap-2 justify-center'><div><i class="fa-regular fa-bell text-gray-900"></i></div>
+          <a className='p-3 flex gap-2 justify-center'><div><i className="fa-regular fa-bell text-gray-900"></i></div>
                     <span>Notifications</span>
                     <div className='bg-[#ff633c] text-gray-200 rounded-full max-[400px]:px-0 px-2'>12</div></a>
             </div>
