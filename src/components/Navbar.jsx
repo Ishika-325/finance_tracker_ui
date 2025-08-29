@@ -21,7 +21,7 @@ function Navbar({isOpen, setIsOpen}) {
             </div>
             <div className='flex gap-2'>
                 <button className='bg-white rounded-full p-4 hidden  md:flex gap-2'> 
-                    <div><i class="fa-regular fa-bell text-gray-900"></i></div>
+                    <div><i className="fa-regular fa-bell text-gray-900"></i></div>
                     <span>Notifications</span>
                     <div className='bg-[#ff633c] text-gray-200 rounded-full max-[400px]:px-0 px-2'>12</div>
                 </button>
@@ -31,7 +31,7 @@ function Navbar({isOpen, setIsOpen}) {
                         <div className='text-gray-900 max-[400px]:text-sm'>Daisy Ridley</div>
                         <div className='text-sm max-[400px]:text-xs'>Co-Founder</div>
                     </div>
-                    <div><i class="fa-solid fa-angle-down text-gray-900"></i></div>
+                    <div><i className="fa-solid fa-angle-down text-gray-900"></i></div>
                 </button>
             </div>
         </div>
