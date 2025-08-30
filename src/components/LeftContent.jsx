@@ -100,7 +100,7 @@ function LeftContent() {
 
               <div className='flex max-[510px]:flex-col min-[510px]:items-center justify-between '>
                 <div className='font-medium text-xl'>Monthly Summary</div>
-                <button className='flex items-center bg-white rounded-full max-[510px]:w-fit  py-2 px-4 gap-2 text-sm'>
+                <button className='flex items-center bg-white rounded-full max-[510px]:w-fit max-[510px]:mt-1  py-2 px-4 gap-2 text-sm'>
                   <span>17th Nov 2023</span>
                   <div>
                     <i className="fa-solid fa-angle-down text-gray-900"></i>

@@ -14,7 +14,7 @@ function App() {
       {isMenu && <Mobile />}
       <div className='flex h-[calc(100vh-7rem)]'>
         <Sidebar className=' overflow-hidden' />
-        <div className='lg:flex overflow-y-auto h-[calc(100vh-7rem)]'>
+        <div className='lg:flex overflow-y-auto h-[calc(100vh-7rem)] xl:items-stretch'>
 
 
 

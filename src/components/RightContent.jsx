@@ -5,9 +5,9 @@ import img2 from "../assets/image2.png"
 
 function RightContent() {
   return (
-    <div className='max-[768]:w-sm max-[768]:p-5'>
+    <div className='max-[768]:w-sm max-[768]:p-5 '>
 
-      <div className='min-[768px]:flex lg:flex-col'>
+      <div className='min-[768px]:grid min-[768px]:grid-cols-2 lg:grid-cols-1 items-stretch '>
 
       <div>
 
@@ -37,9 +37,9 @@ function RightContent() {
 
         </div>
 
-        <div>
+        <div className='xl:flex-grow'>
          {/* Last Transactions */}
-        <div className='p-4  bg-white gap-2 rounded-xl max-[768]:w-sm m-5 lg:mt-0 '> 
+        <div className='p-4  bg-white gap-2 rounded-xl  m-5 lg:mt-0 max-[1024px]:h-[calc(100%-2.5rem)] '> 
 
            <h3 className='font-medium text-lg mb-2'>Last Transactions</h3>
 
